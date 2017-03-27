@@ -1,0 +1,12 @@
+language: go
+deploy:
+  provider: releases
+  api_key:
+    secure: NqOIAqJFfepiEZCqzU3WlOuE1jj0KA561DK74PKQ6UnJRXX4WrikkaB2zussWqdQ3XqHR9GmBDYXcY8qxmp2SxaoGLuXINgjb8dOx15XZbwyToqerzdUgJr59kgtBLMP8P1yBO7m95ZKX5t0LVJt/DTJcHEK4AyCcISY+mFxCzWATY0LjFVUjThGXJRElPl8Y/0dO3Dx2NgvfJpvA6GqOXPG/AYmYWFQgXQ0mgek7vPH339KQIVEwV/Up/ywNV8HErzmyLfGsZmLoze+WCByEYJn7o3M4lSKYPNgj2k71jlY/VPPp9ZHU1Lry4Q+ObdrfdEWZH43R6ZfTBcFOw2NZ8KZDzeoRcafLFt5rBgATTi5m2lHnaHhWIqm5NfdE2cEZBitfuIuQoKox3YIkZj63nl6n69Tzt5mmsXm+8IXQ9rM26RqxJ+NqAjmUAirm1RClFGrnPlcd9EoxWA/2IrDtECVc3gQ3ndNEBFbP7eSVdXXsXkqToSud18QMKH0+5XCr7HTDUKYslcxAe5QDo7Ngq3fa8mtSOW/Hzk1Rcp6gNoJpSuq47hn05MIiLIfniCjf+1br2ncp8hNeD+SJEuv2HzN3ZBSLJQ8EuUY9iBVDFE/LE4lnMO6ScTSZtGqSEkrh9r8s4vzSMn592ib0MZEh3NvdQ7FbJiJ7ZXM67lyYSg=
+  file:
+    - ssh-crypt
+    - ssh-crypt_darwin
+    - ssh-crypt.exe
+  skip_cleanup: true
+  on:
+    tags: true

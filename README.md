@@ -1,3 +1,5 @@
+This project is deprecated, now you can just use [FiloSottile/age](https://github.com/FiloSottile/age#ssh-keys)
+
 # ssh-crypt 🔒 [![Build Status](https://travis-ci.org/suside/ssh-crypt.svg?branch=master)](https://travis-ci.org/suside/ssh-crypt)&nbsp;[![Coverage Status](https://coveralls.io/repos/github/suside/ssh-crypt/badge.svg?branch=master)](https://coveralls.io/github/suside/ssh-crypt?branch=master)&nbsp;[![Go Report Card](https://goreportcard.com/badge/github.com/suside/ssh-crypt)](https://goreportcard.com/report/github.com/suside/ssh-crypt)&nbsp;[![Say thanks!](https://img.shields.io/badge/SayThanks.io-%F0%9F%91%8D-1EAEDB.svg)](https://saythanks.io/to/suside)
 
 Share AES-256 encrypted vault file with your teammates using only ssh `authorized_keys`!
